@@ -31,3 +31,5 @@ echo "🔁 Switching back to previous branch..."
 git switch -
 
 echo "✅ Deployed to gh-pages and returned to project root."
+
+rm -rf "$TEMP_DIR"
