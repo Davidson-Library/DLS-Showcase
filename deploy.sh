@@ -1,27 +1,30 @@
 #!/bin/bash
-
-echo "Building Jekyll site..."
-
-# Exit on error
 set -e
 
 # Build the site
+echo "Building site..."
 bundle exec jekyll build
 
-echo "Deploying Jekyll site..."
+# Save current branch
+CURRENT_BRANCH=$(git branch --show-current)
 
-# Navigate into _site
-cd _site
+# Switch to gh-pages
+git switch gh-pages
 
-# Add and commit the built site
+# Clean out old files (but preserve .git and .gitignore)
+echo "Cleaning old files..."
+find . ! -name '.git' ! -name '.gitignore' -maxdepth 1 -exec rm -rf {} +
+
+# Copy new site files
+echo "Copying new build files..."
+cp -r ../_site/* .
+
+# Commit and push
 git add .
-commit_msg="Deploy site: $(date +'%Y-%m-%d %H:%M:%S')"
+commit_msg="Deploy site: $(date)"
 git commit -m "$commit_msg" || echo "Nothing to commit."
+git push origin gh-pages
 
-# Force push to gh-pages branch
-git push --force origin gh-pages
-
-# Go back to project root
-cd ..
-
-echo "Deployed to gh-pages and returned to project root."
+# Switch back to original branch
+git switch "$CURRENT_BRANCH"
+echo "Deployed to gh-pages and returned to $CURRENT_BRANCH."
