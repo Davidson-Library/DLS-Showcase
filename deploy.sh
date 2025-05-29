@@ -13,11 +13,11 @@ git switch gh-pages
 
 # Clean out old files (but preserve .git and .gitignore)
 echo "Cleaning old files..."
-find . ! -name '.git' ! -name '.gitignore' -maxdepth 1 -exec rm -rf {} +
+find . -mindepth 1 -maxdepth 1 ! -name '.git' ! -name '.gitignore' ! -name 'CNAME' -exec rm -rf {} +
 
 # Copy new site files
 echo "Copying new build files..."
-cp -r ../_site/* .
+cp -a ../_site/. .
 
 # Commit and push
 git add .
