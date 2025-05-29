@@ -1,9 +1,14 @@
 #!/bin/bash
 
-echo "Deploying Jekyll site..."
+echo "Building Jekyll site..."
 
 # Exit on error
 set -e
+
+# Build the site
+bundle exec jekyll build
+
+echo "Deploying Jekyll site..."
 
 # Navigate into _site
 cd _site
