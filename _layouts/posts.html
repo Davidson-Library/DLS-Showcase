@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+    {% include docInfo.html %}
+
+<body class="homepage is-preload">
+    <div id="page-wrapper">
+        {% include header.html %}
+        
+<!-- Main Wrapper -->
+	<div id="main-wrapper">
+		<div class="wrapper style2">
+			<div class="inner">
+				<div class="container">
+					<div id="content">
+                        <article>
+                         <header class="major">
+                            <h2>{{ page.title }}</h2>
+                         </header>            
+                         <p>{{ page.date | date: "%B %d, %Y" }}</p>
+                          {{ content }}
+                        </article>   
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+                    {% include footer.html %}
+    </div>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.dropotron.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
