@@ -112,7 +112,7 @@ input, select, textarea {
 	}
 
 	h3 {
-		font-size: 1.7em;
+		font-size: 1.5em;
 		margin: 0 0 0.35em 0;
 		line-height: 1em;
 		font-family: 'Libre Caslon Text', serif;
@@ -1404,7 +1404,7 @@ input, select, textarea {
 		font-size: 0.95em;
 		letter-spacing: 0.075em;
 		padding: 1em 2em;
-		margin: 2em 1em 0 0;
+		margin: 3em 1em 3em 0;
 		outline: 0;
 		border: 0;
 		white-space: nowrap;
