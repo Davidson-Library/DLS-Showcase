@@ -92,13 +92,14 @@ input, select, textarea {
 	}
 
 	a {
-		color: inherit;
-		text-decoration: underline;
+		text-decoration: none;
+		color: #D42121;
 	}
 
 		a:hover {
-			text-decoration: none;
-			color: #691010
+			text-decoration: underline;
+			color: #0F1012;
+			text-decoration-color: #D42121;
 		}
 
 
@@ -107,7 +108,7 @@ input, select, textarea {
 		margin: 0 0 0.35em 0;
 		line-height: 1em;
 		font-family: 'Libre Caslon Text', serif;
-		font-weight: 600;
+		font-weight: 400;
 	}
 
 	h3 {
@@ -115,16 +116,17 @@ input, select, textarea {
 		margin: 0 0 0.35em 0;
 		line-height: 1em;
 		font-family: 'Libre Caslon Text', serif;
-		font-weight: 600;
+		font-weight: 400;
 	}
 
 	h3.exhibit {
-		font-size: 1.5em;
+		font-size: 1.2em;
 		margin: 0 0 1em 0;
-		line-height: 1em;
+		line-height: 1.2em;
 		font-weight: 600;
-		font-family: 'Inter', sans-serif;
-	}
+		font-family: 'Archivo', sans-serif;
+		text-transform: uppercase;
+		}
 
 	h4 {
 		font-size: clamp(1em, 2.5vw, 1.3em);
@@ -1171,7 +1173,7 @@ input, select, textarea {
 }
 .intro p {
 	color: #FFFFFF;
-	font-size: clamp(1rem, 5vw, 2rem);
+	font-size: clamp(1rem, 5vw, 1.8rem);
 }	
 
 
@@ -1666,6 +1668,8 @@ input, select, textarea {
     width: 100%;
     height: auto;
     margin-bottom: 0.5rem;
+    font-family: 'Archivo', sans-serif;
+	text-transform: uppercase;
 }
 
 #nav ul {
@@ -1692,7 +1696,7 @@ input, select, textarea {
 }
 
 #nav a:hover {
-    background-color: #691010;
+    background-color: #0F1012;
 	border-radius: 4px;
 }
 
@@ -1707,7 +1711,7 @@ input, select, textarea {
 	margin-top: 0;
     top: 100%;
 	left: 0;
-    background: #991414;
+    background: #D42121;
     min-width: 150px;
     box-shadow: 0 8px 16px rgba(0,0,0,0.3);
     z-index: 1000;
@@ -1759,38 +1763,37 @@ input, select, textarea {
 		overflow: hidden;
 		background-color: #FFFFFF;
 		border-radius: 8px;
-		color: #520d0d;
+		color: #0F1012;
 	}
 
 	#banner h1 {
 		font-weight:700;
 		font-family: 'Inter', sans-serif;
 		font-size: 4rem;
-		color: #520d0d;
 	}
 
 	.title-first {
 		display: block;
-		letter-spacing: 0.045em;
+		letter-spacing: 0.04em;
 	}
 
 	.title-second {
 		display: block;
 		margin-top: -0.5em;
-		letter-spacing: 0.04em;
+		letter-spacing: 0.03em;
 	}
 
 	.tagline {
 		font-family: 'Libre Caslon Text', serif;
-		font-size: 3.2rem;
-		letter-spacing: 0.04em;
+		font-size: 3.75rem;
+		letter-spacing: 0.01em;
 	}
 
 	.context-paragraph {
 		font-size: 1.7rem;
 		margin: 2rem auto 4rem auto;
 		padding: 0 2rem;
-		line-height: 1.6;
+		line-height: 1.4;
 		max-width: 900px;
 	  }
 
@@ -1804,10 +1807,19 @@ input, select, textarea {
 	}
 
 	#footer-wrapper {
-		background-image: linear-gradient(rgba(118, 19, 19, 1), rgba(82, 13, 13, 1) 10%, rgba(82, 13, 13, 1) 90%, rgba(118, 19, 19, 1) 100%);
+		background-color: #D42121;
 		box-shadow: 0 0 5px 2px rgba(82, 13, 13, .6);
 		position: relative;
 	}
+
+	#footer-wrapper a {
+		color: #ffffff;
+		text-decoration: underline;
+}
+	#footer-wrapper a:hover{
+		text-decoration: underline;
+		text-decoration-color: #0F1012;
+}
 
 	.wrapper {
 		padding: 2em 0 2em 0;
@@ -1820,15 +1832,15 @@ input, select, textarea {
 
 	.wrapper.intro {
 		position: relative;
-		text-shadow: 1px 1px 0 #000;
-		background-image: linear-gradient(to left, rgba(118, 19, 19, 1), rgba(82, 13, 13, 1) 10%, rgba(82, 13, 13, 1) 90%, rgba(118, 19, 19, 1) 100%);
+		background-image: linear-gradient(to left, rgba(118, 19, 19, 1), rgba(212, 33, 33, 1) 10%, rgba(212, 33, 33, 1) 90%, rgba(118, 19, 19, 1) 100%);
 		box-shadow: 0 0 5px 2px rgba(82, 13, 13, .6);
 		padding: 30px 40px; 
 		margin: 10px auto;
-		font-size: 1.7em;
+		font-size: 1.8em;
 		line-height: 1.5em;
 		text-align: center;
 		min-width: 100%;
+		font-family: 'Inter', sans-serif;
 	}
 
 	.row > section {
@@ -1862,7 +1874,6 @@ input, select, textarea {
 	}
 
 		#header .inner {
-			background: linear-gradient(#D42121, #520d0d);
 			position: relative;
 			height: auto;
 			background-color: #D42121;
