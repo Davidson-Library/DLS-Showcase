@@ -1374,6 +1374,31 @@ input, select, textarea {
 				width: auto;
 			}
 
+			.post-figure {
+				margin: 2em auto; /* Centers the figure and adds vertical space */
+				text-align: center;
+			  }
+			  
+			  .post-image {
+				display: block;
+				width: 100%;
+				height: auto;
+				border-radius: 6px; /* Slightly rounded corners look better with shadows */
+				
+				/* The Shadow: Horizontal, Vertical, Blur, Spread, Color */
+				box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08); 
+				
+				/* Ensures the shadow looks smooth */
+				transition: transform 0.3s ease; 
+			  }
+			  
+			  .post-figure figcaption {
+				margin-top: 12px;
+				font-style: italic;
+				font-size: 0.9em;
+				color: #666;
+			  }
+
 /* Button */
 
 	input[type="button"],

@@ -1,6 +1,8 @@
-<figure class="post-figure" style="max-width: {{ include.max_width | default: '600px' }}; margin-left: auto; margin-right: auto;">
-    <img src="/assets/images/blog/{{ include.src }}" alt="{{ include.alt }}" style="width: 100%; height: auto;">
+  <figure class="post-figure" style="max-width: {{ include.max_width | default: '600px' }};">
+    <img src="/assets/images/blog/{{ include.src }}" 
+         alt="{{ include.alt }}" 
+         class="post-image">
     {% if include.caption %}
-      <figcaption style="text-align: center;">{{ include.caption }}</figcaption>
+      <figcaption>{{ include.caption }}</figcaption>
     {% endif %}
   </figure>

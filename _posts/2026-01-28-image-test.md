@@ -7,5 +7,4 @@ published: true
 
 There should be an image below!
 
-{% include image.html src='clock.jpg' alt='brass antique clock face' caption='An image from Unsplash' %}
-
+{% include image.html src="clock.jpg" alt="brass antique clock face" caption="An image from Unsplash" %}
