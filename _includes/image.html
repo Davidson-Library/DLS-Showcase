@@ -1,2 +1,6 @@
-{{=<% %>=}}<img alt="{{include.alt}}" loading="lazy" src="/_assets/images/blog/{{include.src}}" />
-<em>{{include.caption}}</em>
+<figure class="post-figure" style="max-width: {{ include.max_width | default: '600px' }}; margin-left: auto; margin-right: auto;">
+    <img src="/assets/images/blog/{{ include.src }}" alt="{{ include.alt }}" style="width: 100%; height: auto;">
+    {% if include.caption %}
+      <figcaption style="text-align: center;">{{ include.caption }}</figcaption>
+    {% endif %}
+  </figure>

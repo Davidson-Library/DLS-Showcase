@@ -2,10 +2,10 @@
 layout: posts
 title: "Image Test"
 date: 2026-01-28
-published: false
+published: true
 ---
 
 There should be an image below!
 
-{% include img.html src='clock.jpg' alt='brass antique clock face' caption='An image from Unsplash' %}
+{% include image.html src='clock.jpg' alt='brass antique clock face' caption='An image from Unsplash' %}
 
