@@ -98,7 +98,6 @@ PLATFORMS
 DEPENDENCIES
   base64 (~> 0.3.0)
   bigdecimal (~> 4.0)
-
   csv (~> 3.3)
   http_parser.rb (~> 0.6.0)
   jekyll (~> 3.10.0)
