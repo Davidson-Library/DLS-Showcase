@@ -1401,6 +1401,23 @@ input, select, textarea {
 
 /* Button */
 
+.tag-item {
+  display: inline-block;
+  padding: 5px 12px;
+  margin: 4px;
+  background-color: black;
+  border-radius: 20px;
+  text-decoration: none;
+  color: white;
+  transition: background-color 0.2s;
+}
+
+.tag-item:hover {
+  background-color: #D42121;
+  text-decoration: none;
+  color: white;
+}
+
 	input[type="button"],
 	input[type="submit"],
 	input[type="reset"],
