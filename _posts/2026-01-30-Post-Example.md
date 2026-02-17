@@ -3,7 +3,7 @@ layout: posts
 title: "Post Example"
 date: 2026-01-30
 author: "Your Name"
-tags: ["Faculty", "Student", "Tool", "Space", "Pedagogy", "People", "Digital Humanities", "Media", "Publishing", "AI"]
+tags: ["Faculty", "Student", "Tool", "Space", "Pedagogy", "People", "Digital Humanities", "Media", "Publishing", "AI"] #recommended that you keep only 2 of these tags, 3 if you must
 published: false
 ---
 
