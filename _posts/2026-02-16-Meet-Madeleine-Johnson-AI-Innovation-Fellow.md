@@ -2,6 +2,8 @@
 layout: posts
 title: "Meet Madeleine Johnson, AI Innovation Fellow"
 date: 2026-02-16
+author: "Madeleine Johnson"
+tags: [ai, tool]
 published: true
 ---
 

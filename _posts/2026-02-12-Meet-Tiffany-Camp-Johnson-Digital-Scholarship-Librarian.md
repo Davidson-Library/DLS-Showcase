@@ -2,6 +2,8 @@
 layout: posts
 title: "Meet Tiffany Camp Johnson, Digital Scholarship Libarian"
 date: 2026-02-12
+author: "Tiffany Camp Johnson"
+tags: [faculty, pedagogy, publishing]
 published: false
 ---
 

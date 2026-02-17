@@ -2,6 +2,8 @@
 layout: posts
 title: "Meet Leah Duncan, Digital Humanities Librarian"
 date: 2026-02-10
+author: "Leah Duncan"
+tags: [dh, faculty, pedagogy]
 published: true
 ---
 
