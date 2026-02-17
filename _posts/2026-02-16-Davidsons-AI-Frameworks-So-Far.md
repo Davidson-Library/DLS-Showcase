@@ -1,9 +1,9 @@
 ---
 layout: posts
-title: "Meet Madeleine Johnson, AI Innovation Fellow"
+title: "Davidson's AI Frameworks (So Far)"
 date: 2026-02-16
 author: "Madeleine Johnson"
-tags: [ai, tool]
+tags: ["AI", "Tool"]
 published: true
 ---
 

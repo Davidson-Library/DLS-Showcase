@@ -18,21 +18,32 @@ permalink: /blog/
 											<header class="major">
 												<h2>{{ page.title }}</h2>
 											</header>
-											<p>The Digital Learning & Scholarship team uses this space to describe and reflect on our day-to-day work. Check out the posts below to get a better sense of what we do and how we might collaborate. 	
+											<p>The Digital Learning & Scholarship team uses this space to describe and reflect on our day-to-day work. Check out the posts below to get a better sense of what we do and how we might collaborate.</p> 	
                                             <ul>
                                                 {% for post in site.posts %}
                                                  <li>
                                                    <a href="{{ post.url }}">{{ post.title }}</a>
                                                    <span>
 													{% if post.author %}
-													• by {{ post.author }} • 
+													| by {{ post.author }} • 
 													{% endif %}
 													{{ post.date | date: "%d %b %Y" }}
 													</span>
                                                  </li>
                                                  {% endfor %}
                                             </ul>
-											</p>
+											<div class="tag-cloud" style="text-align: center; line-height: 2.5;">
+												{% assign sorted_tags = site.tags | sort %}
+												{% for tag in sorted_tags %}
+												{% assign tag_name = tag[0] %}
+												{% assign posts = tag[1] %}
+												{% assign count = posts.size %}
+    											{% assign font_size = count | times: 4 | plus: 12 %}
+    											<a href="/tags/#{{ tag_name | slugify }}/" class="tag-item" style="font-size: {{ font_size }}px;">
+													{{ tag_name }}
+												</a>
+												{% endfor %}
+											</div>
 										</article>
 
 								</div>

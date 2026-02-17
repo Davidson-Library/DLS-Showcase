@@ -1,9 +1,9 @@
 ---
 layout: posts
-title: "Meet Leah Duncan, Digital Humanities Librarian"
+title: "Digital Curation as Multimodal Thinking"
 date: 2026-02-10
 author: "Leah Duncan"
-tags: [dh, faculty, pedagogy]
+tags: ["Digital Humanities", "Pedagogy"]
 published: true
 ---
 

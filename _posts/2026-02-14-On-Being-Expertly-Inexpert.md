@@ -3,7 +3,7 @@ layout: posts
 title: "On Being 'Expertly Inexpert'"
 date: 2026-02-14
 author: "Jacob Heil"
-tags: [media, space, pedagogy]
+tags: ["Space", "Pedagogy"]
 published: true
 ---
 

@@ -1,9 +1,9 @@
 ---
 layout: posts
-title: "Meet Tiffany Camp Johnson, Digital Scholarship Libarian"
+title: "Collaborative Partners in Digital Scholarship"
 date: 2026-02-12
 author: "Tiffany Camp Johnson"
-tags: [faculty, pedagogy, publishing]
+tags: ["Faculty", "Pedagogy", "Publishing"]
 published: false
 ---
 

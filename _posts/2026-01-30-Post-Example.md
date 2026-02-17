@@ -3,21 +3,9 @@ layout: posts
 title: "Post Example"
 date: 2026-01-30
 author: "Your Name"
-tags: [insert up to 3 tags here; leave the brackets; put commas between tags; keep them lower case; see tag list below for options]
+tags: ["Faculty", "Student", "Tool", "Space", "Pedagogy", "People", "Digital Humanities", "Media", "Publishing", "AI"]
 published: false
 ---
-Available tags:
--faculty
--student
--tool
--space
--pedagogy
--people
--dh
--media
--publishing
--ai
-
 
 Make a copy of this post. 
 
