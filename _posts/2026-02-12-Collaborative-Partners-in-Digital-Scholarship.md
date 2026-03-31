@@ -9,7 +9,7 @@ published: false
 
 It’s often hard to nail down a definition of digital scholarship. But at its heart, digital scholarship leverages new technologies to advance research, enhance pedagogy, and expand access. The field draws practitioners, scholars, students (and critics) from every corner of academia. The cross-pollination of inquiry, collaboration, and innovation create powerful ways of teaching and learning.
 
-On a typical day at Davidson, my morning may begin with a Library Information Desk shift where I may be called upon to troubleshoot a printer issue, field a research question, or pull a book from the hold shelf. By midday, the landscape may shift into planning a class session that achieves learning objectives while engaging students in digital methodology and storytelling.
+On a typical day at Davidson, my morning may begin with a Library Information Desk shift where I may be called upon to troubleshoot a printer issue, field a research question, or pull a book from the hold shelf. By midday, the landscape may shift into planning a class session that achieves its learning objectives while engaging students in digital methodology and storytelling.
 
 One class session that captured the spirit of this work was Professor Suzanne Churchill’s  ENG 406: Digital Design & Storytelling. The Digital Learning & Scholarship Team has been involved in this class for years; and each year enables us to reflect on our success and opportunities. The last iteration of the seminar was truly a team-taught effort that harnessed the expertise of various librarians and a fellow from the Engagement Research and Learning Unit. The students were tasked with creating a digital humanities project that educates the public about a literary public domain work. 
 
