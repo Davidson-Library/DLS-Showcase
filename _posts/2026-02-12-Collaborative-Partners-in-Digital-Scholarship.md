@@ -4,7 +4,7 @@ title: "Collaborative Partners in Digital Scholarship"
 date: 2026-02-12
 author: "Tiffany Camp Johnson"
 tags: ["Faculty", "Pedagogy", "Publishing"]
-published: false
+published: true
 ---
 
 It’s often hard to nail down a definition of digital scholarship. But at its heart, digital scholarship leverages new technologies to advance research, enhance pedagogy, and expand access. The field draws practitioners, scholars, students (and critics) from every corner of academia. The cross-pollination of inquiry, collaboration, and innovation create powerful ways of teaching and learning.
