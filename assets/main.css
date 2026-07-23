@@ -676,7 +676,26 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 1130px) {
+
+		#banner {
+			flex-direction: column;      /* Stacks left and right groups vertically */
+    		gap: 1.5rem; /* Adds spacing between the two stacked blocks */
+			align-items: center;
+  			}
+
+		.title-group, .tagline-group, .title-first, .title-second, .tagline-first, .tagline-second {
+    		align-items: center;
+			text-align: center !important;
+ 			}
+
+		.title-group {
+			margin-bottom: 0 !important;
+		}
+
+		.tagline-group {
+			margin-top: 0 !important;
+		}
 
 			.row {
 				display: flex;
@@ -922,6 +941,16 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 736px) {
+
+  		#banner {
+			flex-direction: column;      /* Stacks left and right groups vertically */
+    		gap: 2rem; /* Adds spacing between the two stacked blocks */
+			align-items: center;
+  			}
+
+			.title-group, .tagline-group {
+    		text-align: center;
+ 			 }
 
 			.row {
 				display: flex;
@@ -1802,36 +1831,67 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		text-align: center;
+  		display: flex;
+		justify-content: center; /* Pushes left group to the left, right group to the right */
+		align-items: center;       /* Top-aligns both groups horizontally */
 		width: 100%;
-		margin: 50px auto;
+		max-width: 1200px;             /* Keeps layout contained on widescreen */
 		overflow: hidden;
+  		margin: 6em 2em 6em 2em;
 		background-color: #FFFFFF;
 		border-radius: 8px;
 		color: #0F1012;
+		gap: 3em;
 	}
 
 	#banner h1 {
 		font-weight:700;
 		font-family: 'Inter', sans-serif;
-		font-size: 4rem;
+		align-items: center;
+	}
+
+	.title-group,
+	.tagline-group {
+  		flex: 1;              /* Forces both boxes to have identical width */
+  		width: 50%;           /* Fallback for consistent sizing */
+}
+
+	.title-group {
+  		display: flex;
+ 		flex-direction: column;
+  		text-align: right;
+		font-size: 6em;
+		letter-spacing: 0.03em;
 	}
 
 	.title-first {
 		display: block;
-		letter-spacing: 0.04em;
 	}
 
 	.title-second {
 		display: block;
 		margin-top: -0.5em;
+	}
+
+	.tagline-group {
+  		font-family: 'Libre Caslon Text', serif;
+		background-color:#0F1012;
+		color: #FFFFFF;
+		border-radius: 8px;
+		padding: 0 0.5em;
+		display: flex;
+  		flex-direction: column;
+  		text-align: left;
+		font-size: 4em;
 		letter-spacing: 0.03em;
 	}
 
-	.tagline {
-		font-family: 'Libre Caslon Text', serif;
-		font-size: 3.75rem;
-		letter-spacing: 0.01em;
+	.tagline-first {
+		display: block;
+	}
+	.tagline-second {
+		display: block;
+		margin-top: -0.5em;
 	}
 
 	.context-paragraph {
