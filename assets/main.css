@@ -1884,6 +1884,7 @@ input, select, textarea {
   		text-align: left;
 		font-size: 4em;
 		letter-spacing: 0.03em;
+		min-width: 0;
 	}
 
 	.tagline-first {
