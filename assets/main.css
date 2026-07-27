@@ -104,7 +104,7 @@ input, select, textarea {
 
 
 	h2 {
-		font-size: 2em;
+		font-size: clamp(1.5rem, 3.5vw, 1.8rem);
 		margin: 0 0 0.35em 0;
 		line-height: 1em;
 		font-family: 'Libre Caslon Text', serif;
@@ -1201,7 +1201,7 @@ input, select, textarea {
 }
 .intro p {
 	color: #FFFFFF;
-	font-size: clamp(1rem, 5vw, 1.8rem);
+	font-size: clamp(1.4rem, 5vw, 1.8rem);
 }	
 
 
@@ -1696,7 +1696,7 @@ input, select, textarea {
 		}
 		
 		.blurb {
-			font-size: 1.7rem;
+			font-size: clamp(1.5rem, 3.5vw, 1.7rem);
 		}
 
 /* Icons */
@@ -1895,7 +1895,7 @@ input, select, textarea {
 	}
 
 	.context-paragraph {
-		font-size: 1.7rem;
+		font-size: clamp(1rem, 2.5vw, 1.4rem);
 		margin: 2rem auto 4rem auto;
 		padding: 0 2rem;
 		line-height: 1.4;
